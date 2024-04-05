@@ -1,0 +1,30 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px; /* Adjust as needed */
+  height: auto;
+  margin-right: 20px;
+}
+
+.details {
+  flex-grow: 1;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin-top: 20px;
+}
